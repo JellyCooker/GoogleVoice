@@ -1,128 +1,120 @@
-# 2020 年最新注册 Google Voice 号码，成功率极高
+# 注册 Google Voice 方案，成功率较高
 
-## Google Voice 在中国大陆使用最常用功能
+### 先知
 
-* 接受验证码，注册美区PayPal，验证 Facebook、Twitter、WhatApp…
-* 注册 Telegram，解决 +86 号码不能私聊问题`（+86 可以通过发消息给机器人解锁，考虑到隐私还是不建议大家使用 +86 注册）`。
-* 绑定微信（不能注册，只能绑定）。
-* 绑定经常收到垃圾短信的平台。
-* 免费拨打 `美国` `加拿大` 电话和收发短信。
-* 等等…
+- 本文不保证 100% 成功；
+- 如没有实体手机卡接收验证码，可选择虚拟平台（文中提供的仅供参考）；
+- 全程操作`节点用全局模式`，`浏览器用无痕模式`。
 
-## 前期准备
+### 功能
 
-1. Google 账号
-2. 美国原生 IP
-3. 可以接收美国短信的手机卡（如没有，请看步骤三）
+|      | 免费拨打美国加拿大电话，收发短信，还可以注册以下平台         |
+| :--- | :----------------------------------------------------------- |
+| 国内 | 爱奇艺、bilibili、抖音、京东、优酷、QQ/微信（支持换绑）…     |
+| 国外 | Amazon、Facebook、PayPal、Telegram、Twitter、WhatsApp（支持换绑）… |
 
-> 风险请自行承担，例如被 Google 检测出来使用代理，谷歌账号有可能被封，所以下面 `步骤一` 很重要。
+### 步骤一、检测 IP
 
-## 步骤一、检查 IP
-
-* 路线切换为 `美国`（全局模式）；DNS 改为 `8.8.8.8`。
-
-* 浏览器 `无痕模式` 打开 [https://whoer.net](https://whoer.net)，检测路线是否被 Google 识别出来（分数越高越好，不满足的地方会被列出，如低于 `70` 分建议更换路线）。
+节点切换为美国，打开 [https://whoer.net](https://whoer.net) 检测路线伪装程度。
 
 ![](pic/002.jpg)
 
-* 打开 [https://ipdata.co/](https://ipdata.co/)，测试路线为 `家庭` 或 `托管`。
 
-> * 显示 `type: "isp"` 表示家庭用户，最佳；
-> * 显示 `type: "hosting"` 表示代理托管，建议更换路线。
+### 步骤二、挑选 Google Voice 号码
 
-![](pic/003.jpg)
-
-## 步骤二、挑选 Google Voice 号码
-
-* 打开 [Google Voice](https://voice.google.com/) 使用 Google 账户登陆，点击「选择电话号码」。
+打开 [Google Voice](https://voice.google.com/) 并使用 Google 账号登陆，点击「选择电话号码」。
 
 ![](pic/004.png)
 
-* 系统会推荐一些 Google Voice 号码，找到自己喜欢的号码，点击「选择」。
+系统会推荐一些 Google Voice 号码，找到自己喜欢的点击「选择」。
+
+> 注：支持输入 `区号` 或 `4位数` 搜索
 
 ![](pic/005.png)
 
-* 点击「验证」，输入美国号码，点击「发送代码」。
+此时需填入美国手机号码，点击「发送代码」。
 
-> 如果你没有实体卡，继续往下看。
+> 注：如没有手机号码，往下看 `步骤三`
 
 ![](pic/006.png)
 
-## 步骤三、代收短信
+### 步骤三、代收短信
 
-* 打开 [https://verifywithsms.com/](https://verifywithsms.com/) 并完成注册。
-
-![](pic/007.png)
-
-* 使用 PayPal 预先充值 2.1 美元。
+打开 [https://verifywithsms.com/](https://verifywithsms.com/) 注册并登陆，点击「RECHARGE」，选择 PayPal 支付。
 
 ![](pic/008.png)
 
-* 点击左侧「CATALOG」，找到「Google Voice」，点击后面的购物车，支付 2.09 美元。
+输入 2.09 美元，登陆 PayPal 充值。
+> 注：如果付款成功余额未显示金额，不要着急，原因是Paypal有几率出现24小时到帐
+
+![](pic/008.1.png)
+
+充值后点击左侧「CATALOG」>「Google Voice」，点击购物车。
 
 ![](pic/009.png)
 
-* 支付完会显示一个号码，复制粘贴到 `步骤二` 输入美国号码处，并点击发送代码。
-* 等待几秒，此处会收到 `验证码`。
-* 再把 `验证码` 输入到 `步骤二` 那里。
+勾选「I Agree」，点击「CONTINUE」。
 
-![](pic/010.jpg)
+![](pic/009.1.png)
 
-* 完成注册，可以看到号码已经绑定在你的 Google 账户下。
+打开「I agree」，点击「NEXT」。
 
-> 也可以将 Google Voice 转移至其他 Google 账户下，方法：[https://github.com/masonincn/Google-Voice](https://github.com/masonincn/Google-Voice)
+![](pic/010.png)
+
+会出现一个美国号码。
+
+![](pic/010.1.png)
+
+将号码填至 `步骤二` ，点击「发送代码」。
+
+![](pic/019.png)
+
+回到接收短信网站，点击「NEXT」会显示验证码。
+
+![](pic/020.png)
+
+将验证码填至 `步骤二` ，点击「验证」。
+
+![](pic/021.png)
+
+### 步骤四 注册完成
+
+号码显示在右上角。
+
+> 注：如未显示号码，说明注册失败。
 
 ![](pic/011.png)
 
-* 手机端安装 Voice 或 Hangouts（环聊），建议使用「环聊」。
+### 手机上使用环聊（推荐）
 
-> iPhone 在美区 App Store 里安装 App。
+进入环聊设置 > 电话号码，打开接到来电和消息。
 
-![](pic/012.jpg)
+![](pic/huanliao.jpg)
 
-## 为什么建议使用 Google 环聊？
+### 手机上使用 Voice
 
-Google Voice App 须绑定美国真实手机号后才能拨打电话，推荐使用 Google Hangouts（环聊），可以绕过限制。
+打开 Google Voice，设置 > 拨打和接听电话 > 首选 Wi-Fi 和移动数据网络。
 
-> 使用 `环聊` 前需要先关联 `Google Voice`
+![](pic/voice.jpg)
 
-* 登陆 [Google 环聊](https://hangouts.google.com/?authuser=2)，点击`…` 设置，勾选 Google 语音。
+### 防止收回
 
-![](pic/015.png)
+9 个月内既没有拨出电话或收到来电，也没有发送或收到短信，则 Google 会收回该号码。收回前30天和7天会发邮件通知。
 
-* 打开 Google Voice，选择「是的，使用环聊」。
+* 找有 Google Voice 的朋友互相电话 / 短信。
+* 拨打美国客服电话，例如 Apple，Microsoft。
 
-![](pic/016.png)
-
-* 点击右上角设置 > 环聊，即可看到已经关联成功。
-
-![](pic/017.png)
-
-## Google Voice App 提示：「还有一件事…拨打电话前，请验证您自己的电话号码」
-
-![](pic/018.png)
-
-- 打开 Google Voice，点击左上角三条杠 > 设置。
-- 通话里点击「拨打和接听电话」。
-
-![](pic/013.png)
-
-* 选择「首选 Wi-Fi 和移动数据网络」，此时即可拨打电话了。
-
-![](pic/014.jpg)
-
-## 如何防止 Google Voice 被收回？
-
-> 9 个月内既没有拨出电话或收到来电，也没有发送或收到短信，则 Google 会收回该号码。
-
-* 找位拥有 Google Voice 的朋友互相电话或短信，约半年一次即可。
-* 拨打美国客服电话，例如 Apple，Microsoft 等。
-* 也可以注册两个 Google Voice 号，互相骚扰 🐶🐶
-
-## Google Voice 通话资费
+### 通话资费
 
 * 中国-手机/有线电话：0.02美元/分钟
 * 中国-香港手机/固定电话：0.03美元/分钟
+* 更多国家资费介绍：[https://voice.google.com/u/0/rates?pli=1](https://voice.google.com/u/0/rates?pli=1)
 
-* 更多国家资费官网介绍：[https://voice.google.com/u/0/rates?pli=1](https://voice.google.com/u/0/rates?pli=1)
+### Telegram 交流群
 
+1. 路由器交流群：[https://t.me/luyouqi](https://t.me/luyouqi)
+2. V2EX 交流群：[https://t.me/V2EXPro](https://t.me/V2EXPro)
+3. iOS 交流群：[https://t.me/joinchat/PfkEcxxgHpWWYT-bagSupg](https://t.me/joinchat/PfkEcxxgHpWWYT-bagSupg)
+4. macOS 交流群：[https://t.me/macosqun](https://t.me/macosqun)
+5. Google 交流群：[https://t.me/googlequn](https://t.me/googlequn)
+6. **更多群组：[点击我](https://masonme.github.io/2020/06/11/telegram-group/)**
