@@ -1,120 +1,149 @@
-# 注册 Google Voice 方案，成功率较高
+# 注册 Google Voice 方法
+ 
+### 目录
 
-### 先知
+1. [常见使用场景](#常见使用场景)
+2. [IP 检测](#IP-检测)
+3. [挑选号码](#挑选号码)
+4. [接码平台](#接码平台)
+5. [客户端](#客户端)
+6. [保号](#保号)
+7. [资费](#资费)
+8. [充值](#充值)
+9. [转移](#转移)
+10. [接码平台运营商查询服务](#接码平台运营商查询服务)
 
-- 本文不保证 100% 成功；
-- 如没有实体手机卡接收验证码，可选择虚拟平台（文中提供的仅供参考）；
-- 全程操作`节点用全局模式`，`浏览器用无痕模式`。
+[![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro) 
 
-### 功能
+---
+### 常见使用场景
 
-|      | 免费拨打美国加拿大电话，收发短信，还可以注册以下平台         |
-| :--- | :----------------------------------------------------------- |
-| 国内 | 爱奇艺、bilibili、抖音、京东、优酷、QQ/微信（支持换绑）…     |
-| 国外 | Amazon、Facebook、PayPal、Telegram、Twitter、WhatsApp（支持换绑）… |
+| 国内     |     注册     | |国外       | 注册 | |其他优点                                 |
+| :------- | :----------: | :----------: | :--------- | :--: | :--------- |:--------------------------------------- |
+| Bilibili |      ✅       | |Amazon     |  ✅   | |免费得到一个美国电话号码                 |
+| JD       |      ✅       | |Clubhouse |  ✅   | |免费接打电话和收发短信（仅美国、加拿大） |
+| 爱奇艺   |      ✅       | |Facebook   |  ✅   | |0月租                                    |
+| 优酷     |      ✅       | |PayPal     |  ✅   | |极少骚扰电话和垃圾短信                   |
+| 今日头条 |      ✅       | |Telegram   |  ✅   | |虚拟号码不占用 SIM 卡槽                  |
+| 西瓜视频 |      ✅       | |Twitter    |  ✅   | |                                         |
+| 抖音     | 需全局美节点 |   |         |      |   |                                       |
+| 微博     | 需全局美节点 |   |         |      |   |                                       |
+| 微信/QQ  |   支持换绑   |   |         |      |   |                                       |
 
-### 步骤一、检测 IP
+### IP 检测
 
-节点切换为美国，打开 [https://whoer.net](https://whoer.net) 检测路线伪装程度。
+节点路线为美国全局模式，浏览器无痕模式，打开  [WHOER](https://whoer.net)  检测路线伪装程度。
 
-![](pic/002.jpg)
+> 注：部分人的 IP 虽然是美国，但不是原生 IP。
+
+![](https://i.imgur.com/cvJ5I32.jpg)
 
 
-### 步骤二、挑选 Google Voice 号码
+### 挑选号码
 
-打开 [Google Voice](https://voice.google.com/) 并使用 Google 账号登陆，点击「选择电话号码」。
+打开 [Google Voice](https://voice.google.com/) 登录 Google 账号，选择手机端或网页端。
 
-![](pic/004.png)
+![](https://i.imgur.com/iB40Erd.png)
 
-系统会推荐一些 Google Voice 号码，找到自己喜欢的点击「选择」。
+点击**选择电话号码**，输入 `区号` 或 `自己喜欢的数字` 挑选号码。
 
-> 注：支持输入 `区号` 或 `4位数` 搜索
+![](https://i.loli.net/2021/03/02/jeDNBWAMYazm6ko.png)
 
-![](pic/005.png)
+选择号码后会提示【验证】，填入美国手机号，点击**发送代码**。
+> 注：如果没有美国实体手机号接验证码，请往下看选择接码平台。
 
-此时需填入美国手机号码，点击「发送代码」。
+![](https://i.loli.net/2021/03/02/Bd2OEmhbHKrlzX7.png)
 
-> 注：如没有手机号码，往下看 `步骤三`
+### 接码平台
 
-![](pic/006.png)
+以 [verifywithsms](https://verifywithsms.com/) （平台仅供参考）为例：打开注册并点击 **RECHARGE** 充值（先点击左侧 **CATALOG**，找到 Google Voice 查看实时价格后再充值，因为余额不支持提现）。
 
-### 步骤三、代收短信
+> 注：据反映此接码平台已经被谷歌标记，失败率较高，如果你有更好的欢迎写在 [Issues](https://github.com/maomiui/googlevoice/issues)，方便其他人，或使用美国实体卡最好！！！
 
-打开 [https://verifywithsms.com/](https://verifywithsms.com/) 注册并登陆，点击「RECHARGE」，选择 PayPal 支付。
+![](https://tvax3.sinaimg.cn/large/008aobiRgy1gmhemij4vfj31vy148448.jpg)
 
-![](pic/008.png)
+充值后点击左侧 **CATALOG**，找到 Google Voice 点击右侧**购物车**。
 
-输入 2.09 美元，登陆 PayPal 充值。
-> 注：如果付款成功余额未显示金额，不要着急，原因是Paypal有几率出现24小时到帐
+![2021-01-09 at 14.03](https://tva1.sinaimg.cn/large/008aobiRgy1gmheq8e6dxj31vy148wk1.jpg)
 
-![](pic/008.1.png)
+勾选 **I Agree**，再点击 **CONTINUE**。
 
-充值后点击左侧「CATALOG」>「Google Voice」，点击购物车。
+![](https://tvax3.sinaimg.cn/large/008aobiRgy1gmhm6y9jxuj31qi124agg.jpg)
 
-![](pic/009.png)
+选择 Google Voice ，打开 I agree 点击 **NEXT**。
 
-勾选「I Agree」，点击「CONTINUE」。
+![](https://i.loli.net/2021/03/02/yEiDzZfcFkQ3IXm.png)
 
-![](pic/009.1.png)
+出现一个美国电话号码。
 
-打开「I agree」，点击「NEXT」。
+> 注：[判断接码平台号码是否支持注册 GV](#接码平台运营商查询服务)。
 
-![](pic/010.png)
+![](https://i.loli.net/2021/03/02/N8Q9y1nJBi652DK.png)
 
-会出现一个美国号码。
+将号码填至前面的关联电话号码，点击**发送代码**。
 
-![](pic/010.1.png)
+![](https://i.loli.net/2021/03/02/3lOiZAskErRJM1U.png)
 
-将号码填至 `步骤二` ，点击「发送代码」。
+回到接收短信网页，点击 **NEXT** 会显示验证码。将验证码填至 Voice 验证码框，点击**验证**。
 
-![](pic/019.png)
+![](https://i.loli.net/2021/03/02/iERqxuVOdGea54o.png)
 
-回到接收短信网站，点击「NEXT」会显示验证码。
+注册成功后，Google Voice 号码显示在右上角。
 
-![](pic/020.png)
+![](https://tva4.sinaimg.cn/large/008aobiRgy1gmhm3prql2j31qi124wlf.jpg)
 
-将验证码填至 `步骤二` ，点击「验证」。
+---
 
-![](pic/021.png)
+### 客户端
 
-### 步骤四 注册完成
+* iOS：非国区 App Store 安装。
+* Android：Google Play 安装。
 
-号码显示在右上角。
+安装好登录 Voice，打开设置 > 拨打和接听电话 > 首选 Wi-Fi 和移动数据网络。
 
-> 注：如未显示号码，说明注册失败。
+![](https://i.loli.net/2021/03/02/TM7HSyVJK5fbnCQ.png)
 
-![](pic/011.png)
+---
 
-### 手机上使用环聊（推荐）
+### 保号
+3 个月内没有拨打/接听电话或发短信，[Google](https://support.google.com/voice/answer/9230450?hl=en&ref_topic=9273222#:~:text=Google%20Voice%20Service.-,Account%20Inactivity,-Google%20may%20reclaim) 会收回号码。
 
-进入环聊设置 > 电话号码，打开接到来电和消息。
+* 常使用，例如与其他人互相打电话 / 发短信；
+* 拨打美国客服电话，例如：Apple，Microsoft；
+* 注册两个 GV 号，互相联系。
 
-![](pic/huanliao.jpg)
+---
 
-### 手机上使用 Voice
+### 资费
 
-打开 Google Voice，设置 > 拨打和接听电话 > 首选 Wi-Fi 和移动数据网络。
+* 中国：0.02 美元/分钟
+* 更多国家资费请打开 [Google Voice 通话费率](https://voice.google.com/u/0/rates?pli=1)进行查询。
 
-![](pic/voice.jpg)
+---
 
-### 防止收回
+### 充值
 
-9 个月内既没有拨出电话或收到来电，也没有发送或收到短信，则 Google 会收回该号码。收回前30天和7天会发邮件通知。
+* 打开 [Voice](https://voice.google.com/u/3/billing) 点击**话费充值**，选择金额，填写信用卡信息购买。
 
-* 找有 Google Voice 的朋友互相电话 / 短信。
-* 拨打美国客服电话，例如 Apple，Microsoft。
+* 使用 Wechat Out，只要将微信换绑 Google Voice 后即会出现该功能，支持微信内充值。
 
-### 通话资费
+---
 
-* 中国-手机/有线电话：0.02美元/分钟
-* 中国-香港手机/固定电话：0.03美元/分钟
-* 更多国家资费介绍：[https://voice.google.com/u/0/rates?pli=1](https://voice.google.com/u/0/rates?pli=1)
+### 转移
 
-### Telegram 交流群
+如果你的 Google Voice 是网上购买，商家会给一个 Google 账户包含 Voice，建议将号码[转移](https://github.com/masonme/googlevoice-transfer)至自己的 Google 账户。
 
-1. 路由器交流群：[https://t.me/luyouqi](https://t.me/luyouqi)
-2. V2EX 交流群：[https://t.me/V2EXPro](https://t.me/V2EXPro)
-3. iOS 交流群：[https://t.me/joinchat/PfkEcxxgHpWWYT-bagSupg](https://t.me/joinchat/PfkEcxxgHpWWYT-bagSupg)
-4. macOS 交流群：[https://t.me/macosqun](https://t.me/macosqun)
-5. Google 交流群：[https://t.me/googlequn](https://t.me/googlequn)
-6. **更多群组：[点击我](https://masonme.github.io/2020/06/11/telegram-group/)**
+---
+
+### 接码平台运营商查询服务
+
+虚拟/固定号码无法注册 Google Voice，如果使用接码平台，如何判断呢？打开 [freecarrierlookup](https://freecarrierlookup.com/) 输入号码，点击 **Seach**。
+
+* 显示 `n` 则不能注册 Google Voice。
+
+![9JCzij7K6rVy2AQ](https://i.loli.net/2021/02/26/9JCzij7K6rVy2AQ.png)
+
+* 显示 `y` 则可以注册 Google Voice。
+
+![FrnlvOcho8sVRbQ](https://i.loli.net/2021/02/26/FrnlvOcho8sVRbQ.png)
+
